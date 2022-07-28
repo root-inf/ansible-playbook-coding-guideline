@@ -17,4 +17,4 @@ jobs:
           pip install --upgrade pip
           pip install sphinx
           make html
-          rm /var/www/cp -pr _build /tmp/ansible-playbook-coding-guideline
+          sudo rm -r /var/www/html/html && sudo cp -pr _build/html /var/www/html/
