@@ -10,7 +10,7 @@ Welcome to ansible-playbook-coding-guideline's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-+   introduction
+   ./introduction
 
 
 Indices and tables
