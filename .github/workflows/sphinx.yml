@@ -1,8 +1,8 @@
-name: Ansible Playbook
+name: Ansible Coding Guideline
 on: push
 
 jobs:
-  role-test:
+  build_and_deploy:
     runs-on: self-hosted
     steps:
       - name: Checkout
@@ -17,4 +17,4 @@ jobs:
           pip install --upgrade pip
           pip install sphinx
           make html
-          cp -pr _build /tmp/ansible-playbook-coding-guideline
+          rm /var/www/cp -pr _build /tmp/ansible-playbook-coding-guideline
