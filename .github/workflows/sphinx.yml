@@ -15,7 +15,7 @@ jobs:
         run: |
           source ./venv/bin/activate
           pip install --upgrade pip
-          pip install sphinx
+          pip install sphinx sphinx_rtd_theme
           make html
 
       - name: deploy contents
