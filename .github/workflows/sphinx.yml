@@ -20,4 +20,4 @@ jobs:
 
       - name: deploy contents
         run: |
-          sudo rm -r /var/www/html/_build && sudo cp -pr _build /var/www/html/
+          sudo rm -rf /var/www/html/_build && sudo cp -pr _build /var/www/html/
